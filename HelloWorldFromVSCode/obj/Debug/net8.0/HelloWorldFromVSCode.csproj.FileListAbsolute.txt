@@ -1,0 +1,15 @@
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\bin\Debug\net8.0\HelloWorldFromVSCode.exe
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\bin\Debug\net8.0\HelloWorldFromVSCode.deps.json
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\bin\Debug\net8.0\HelloWorldFromVSCode.runtimeconfig.json
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\bin\Debug\net8.0\HelloWorldFromVSCode.dll
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\bin\Debug\net8.0\HelloWorldFromVSCode.pdb
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.AssemblyInfoInputs.cache
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.AssemblyInfo.cs
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.sourcelink.json
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.dll
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\refint\HelloWorldFromVSCode.dll
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.pdb
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\HelloWorldFromVSCode.genruntimeconfig.cache
+C:\Users\Aaron\Desktop\C-Sharp-Course\HelloWorldFromVSCode\obj\Debug\net8.0\ref\HelloWorldFromVSCode.dll
