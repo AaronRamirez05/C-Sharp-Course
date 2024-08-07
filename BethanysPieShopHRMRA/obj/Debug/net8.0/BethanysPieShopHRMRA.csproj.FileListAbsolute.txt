@@ -27,3 +27,6 @@ C:\Users\Aaron\Desktop\C-Sharp-Course\BethanysPieShopHRMRA\obj\Debug\net8.0\refi
 C:\Users\Aaron\Desktop\C-Sharp-Course\BethanysPieShopHRMRA\obj\Debug\net8.0\BethanysPieShopHRMRA.pdb
 C:\Users\Aaron\Desktop\C-Sharp-Course\BethanysPieShopHRMRA\obj\Debug\net8.0\BethanysPieShopHRMRA.genruntimeconfig.cache
 C:\Users\Aaron\Desktop\C-Sharp-Course\BethanysPieShopHRMRA\obj\Debug\net8.0\ref\BethanysPieShopHRMRA.dll
+C:\Users\Aaron\Desktop\C-Sharp-Course\BethanysPieShopHRMRA\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Aaron\Desktop\C-Sharp-Course\BethanysPieShopHRMRA\obj\Debug\net8.0\BethanysPieShopHRMRA.csproj.AssemblyReference.cache
+C:\Users\Aaron\Desktop\C-Sharp-Course\BethanysPieShopHRMRA\obj\Debug\net8.0\Bethanys.C53B6F54.Up2Date

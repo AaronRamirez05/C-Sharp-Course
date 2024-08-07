@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UQnytUlPmN4irypCyUOzDMXY3iolNm5kzV5EnqrZjzK04qolnWiSdQwUtn3OISrhLTWe1uY2KtoIUsaWOD1NBA==",
+  "dgSpecHash": "QWocBOTavbYJlC8wOraqHm1sZd3BibIniZobS61iGDQlODpnuT08pmxboelLDW0sZ/LGFVr6xbn8sjkpZ8QLCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\BethanysPieShopHRMRA.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Aaron\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
