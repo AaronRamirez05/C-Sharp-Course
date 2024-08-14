@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BethanysPieShopHRMRA.HR
 {
-    internal class Employee: IEmployee
+    public class Employee: IEmployee
     {
 
         private string firstName;
