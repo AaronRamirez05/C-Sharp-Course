@@ -3,51 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59CABC39-D86C-4C62-A4B8-61CC464D92D4}|..\\BethanysPieShopHRMRA.Tests\\BethanysPieShopHRMRA.Tests.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\researcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\researcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\juniorresearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\juniorresearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\hr\\storemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:hr\\storemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\accounting\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:accounting\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\accounting\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:accounting\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,156 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\BethanysPieShopHRMRA.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\BethanysPieShopHRMRA.Tests\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Utilities.cs",
+              "RelativeDocumentMoniker": "Utilities.cs",
+              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Utilities.cs",
+              "RelativeToolTip": "Utilities.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAmwJIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T03:32:56.733Z",
+              "WhenOpened": "2024-08-14T08:38:07.057Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Developer.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Developer.cs",
-              "RelativeDocumentMoniker": "HR\\Developer.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Developer.cs",
-              "RelativeToolTip": "HR\\Developer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T23:36:00.622Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Employee.cs",
-              "RelativeDocumentMoniker": "HR\\Employee.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Employee.cs",
-              "RelativeToolTip": "HR\\Employee.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAIwHoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T00:19:23.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Address.cs",
-              "RelativeDocumentMoniker": "HR\\Address.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Address.cs",
-              "RelativeToolTip": "HR\\Address.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAgwAkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T00:16:04.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T04:15:33.692Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Manager.cs",
-              "RelativeDocumentMoniker": "HR\\Manager.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Manager.cs",
-              "RelativeToolTip": "HR\\Manager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAowA8AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T23:25:38.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\IEmployee.cs",
-              "RelativeDocumentMoniker": "HR\\IEmployee.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\IEmployee.cs",
-              "RelativeToolTip": "HR\\IEmployee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T02:10:26.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Researcher.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Researcher.cs",
-              "RelativeDocumentMoniker": "HR\\Researcher.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\Researcher.cs",
-              "RelativeToolTip": "HR\\Researcher.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowCMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T23:40:08.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "JuniorResearcher.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\JuniorResearcher.cs",
-              "RelativeDocumentMoniker": "HR\\JuniorResearcher.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\JuniorResearcher.cs",
-              "RelativeToolTip": "HR\\JuniorResearcher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T23:40:56.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StoreManager.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\StoreManager.cs",
-              "RelativeDocumentMoniker": "HR\\StoreManager.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\HR\\StoreManager.cs",
-              "RelativeToolTip": "HR\\StoreManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T23:35:19.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Accounting\\Customer.cs",
-              "RelativeDocumentMoniker": "Accounting\\Customer.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Accounting\\Customer.cs",
-              "RelativeToolTip": "Accounting\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:00:09.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Accounting\\Account.cs",
-              "RelativeDocumentMoniker": "Accounting\\Account.cs",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Accounting\\Account.cs",
-              "RelativeToolTip": "Accounting\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:00:04.425Z"
             }
           ]
         }
