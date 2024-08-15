@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|c:\\users\\aaron\\desktop\\c-sharp-course\\bethanyspieshophrmra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C0CDF-274D-4455-88DE-F0D87F44272C}|BethanysPieShopHRMRA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Utilities.cs",
               "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Utilities.cs",
               "RelativeDocumentMoniker": "Utilities.cs",
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Utilities.cs",
               "RelativeToolTip": "Utilities.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAmwJIAAAAAAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAwEAAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T08:38:07.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\C-Sharp-Course\\BethanysPieShopHRMRA\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T04:15:33.692Z",
               "EditorCaption": ""

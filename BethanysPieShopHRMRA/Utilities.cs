@@ -17,13 +17,13 @@ namespace BethanysPieShopHRMRA
             string path = $"{directory}{fileName}";
             bool existingFileFound = File.Exists(path);
 
-            if (existingFileFound) 
+            if (existingFileFound)
             {
                 Console.WriteLine("An existing file with Employee data is found.");
             }
             else
             {
-                if(!Directory.Exists(path)) 
+                if (!Directory.Exists(path))
                 {
                     Directory.CreateDirectory(directory);
                     Console.ForegroundColor = ConsoleColor.Blue;
@@ -42,8 +42,8 @@ namespace BethanysPieShopHRMRA
             Console.Write("Your selection: ");
             string employeeType = Console.ReadLine();
 
-            if(employeeType != "1" && employeeType != "2" && employeeType != "3" && employeeType != "4" && employeeType != "5") 
-            { 
+            if (employeeType != "1" && employeeType != "2" && employeeType != "3" && employeeType != "4" && employeeType != "5")
+            {
                 Console.WriteLine("Invalid selection!");
                 return;
             }
@@ -66,7 +66,7 @@ namespace BethanysPieShopHRMRA
 
             Employee employee = null;
 
-            switch(employeeType)
+            switch (employeeType)
             {
                 case "1":
                     employee = new Employee(firstName, lastName, email, birthday, rate);
@@ -90,58 +90,92 @@ namespace BethanysPieShopHRMRA
 
         internal static void ViewAllEmployees(List<Employee> employees)
         {
-            foreach (Employee e in employees)
+          
+            for (int i = 0; i < employees.Count; i++)
             {
-                e.DisplayEmployeeDetails();
+                employees[i].DisplayEmployeeDetails();
             }
         }
 
         internal static void LoadEmployees(List<Employee> employees)
         {
             string path = $"{directory}{fileName}";
-            if (File.Exists(path))
+            try
             {
-                employees.Clear();
-
-                //now read the file
-                string[] employeesAsString = File.ReadAllLines(path);
-                for (int i = 0; i < employeesAsString.Length; i++)
+                if (File.Exists(path))
                 {
-                    string[] employeeSplits = employeesAsString[i].Split(';');
-                    string firstName = employeeSplits[0].Substring(employeeSplits[0].IndexOf(':') + 1);
-                    string lastName = employeeSplits[1].Substring(employeeSplits[1].IndexOf(':') + 1);
-                    string email = employeeSplits[2].Substring(employeeSplits[2].IndexOf(':') + 1);
-                    DateTime birthDay = DateTime.Parse(employeeSplits[3].Substring(employeeSplits[3].IndexOf(':') + 1));
-                    double hourlyRate = double.Parse(employeeSplits[4].Substring(employeeSplits[4].IndexOf(':') + 1));
-                    string employeeType = employeeSplits[5].Substring(employeeSplits[5].IndexOf(':') + 1);
+                    employees.Clear();
 
-                    Employee employee = null;
-
-                    switch (employeeType)
+                    //now read the file
+                    string[] employeesAsString = File.ReadAllLines(path);
+                    for (int i = 0; i < employeesAsString.Length; i++)
                     {
-                        case "1":
-                            employee = new Employee(firstName, lastName, email, birthDay, hourlyRate);
-                            break;
-                        case "2":
-                            employee = new Manager(firstName, lastName, email, birthDay, hourlyRate);
-                            break;
-                        case "3":
-                            employee = new StoreManager(firstName, lastName, email, birthDay, hourlyRate);
-                            break;
-                        case "4":
-                            employee = new Researcher(firstName, lastName, email, birthDay, hourlyRate);
-                            break;
-                        case "5":
-                            employee = new JuniorResearcher(firstName, lastName, email, birthDay, hourlyRate);
-                            break;
+                        string[] employeeSplits = employeesAsString[i].Split(';');
+                        string firstName = employeeSplits[0].Substring(employeeSplits[0].IndexOf(':') + 1);
+                        string lastName = employeeSplits[1].Substring(employeeSplits[1].IndexOf(':') + 1);
+                        string email = employeeSplits[2].Substring(employeeSplits[2].IndexOf(':') + 1);
+                        DateTime birthDay = DateTime.Parse(employeeSplits[3].Substring(employeeSplits[3].IndexOf(':') + 1));
+                        double hourlyRate = double.Parse(employeeSplits[4].Substring(employeeSplits[4].IndexOf(':') + 1));
+                        string employeeType = employeeSplits[5].Substring(employeeSplits[5].IndexOf(':') + 2);
+
+                        Employee employee = null;
+
+                        switch (employeeType)
+                        {
+                            case "1":
+                                employee = new Employee(firstName, lastName, email, birthDay, hourlyRate);
+                                break;
+                            case "2":
+                                employee = new Manager(firstName, lastName, email, birthDay, hourlyRate);
+                                break;
+                            case "3":
+                                employee = new StoreManager(firstName, lastName, email, birthDay, hourlyRate);
+                                break;
+                            case "4":
+                                employee = new Researcher(firstName, lastName, email, birthDay, hourlyRate);
+                                break;
+                            case "5":
+                                employee = new JuniorResearcher(firstName, lastName, email, birthDay, hourlyRate);
+                                break;
+                            default:
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.WriteLine($"Unknown employee type: {employeeType}. Skipping this entry.");
+                                break;
+                        }
+
+
+                        employees.Add(employee);
+
                     }
-
-
-                    employees.Add(employee);
-
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Loaded {employees.Count} employees!\n\n");
+                    //Console.ResetColor();
                 }
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"Loaded {employees.Count} employees!\n\n");
+            }
+            catch (IndexOutOfRangeException iex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Something went wrong parsing the file, please check the data!");
+                Console.WriteLine(iex.Message);
+                //Console.ResetColor();
+            }
+            catch (FileNotFoundException fnfex)
+            {
+                 Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("The file couldn't be found!");
+                Console.WriteLine(fnfex.Message);
+                Console.WriteLine(fnfex.StackTrace);
+                //Console.ResetColor();
+            }
+            catch(Exception ex) 
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Something went wrong while loading the file!");
+                Console.WriteLine(ex.Message);
+                //Console.ResetColor();
+            }
+            finally
+            {
                 Console.ResetColor();
             }
 
@@ -162,7 +196,7 @@ namespace BethanysPieShopHRMRA
                 sb.Append($"type: {type};");
                 sb.Append(Environment.NewLine);
             }
-            File.WriteAllText(path, sb.ToString());
+            File.AppendAllText(path, sb.ToString());
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Saved employees successfully");
             Console.ResetColor();
@@ -191,6 +225,24 @@ namespace BethanysPieShopHRMRA
                 return "1";
             }
             return "0";
+        }
+
+        internal static void LoadEmployeeById(List<Employee> employees)
+        {
+            try
+            {
+                Console.Write("Enter the Employee ID you want to visualize: ");
+
+                int selectedId = int.Parse(Console.ReadLine());
+                Employee selectedEmployee = employees[selectedId];
+                selectedEmployee.DisplayEmployeeDetails();
+            }
+            catch (FormatException fex)
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("That's not the correct format to enter an ID!\n\n");
+                Console.ResetColor();
+            }
         }
     }
 }
